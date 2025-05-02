@@ -13,9 +13,18 @@
     "url": "https://github.com/PatrickNassar0/retry-async-function/issues"
   },
   "homepage": "https://github.com/PatrickNassar0/retry-async-function#readme",
-  "description": "",
-  "packageManager": "pnpm@10.7.1+sha512.2d92c86b7928dc8284f53494fb4201f983da65f0fb4f0d40baafa5cf628fa31dae3e5968f12466f17df7e97310e30f343a648baea1b9b350685dafafffdf5808",
+  "description": "Retry async functions in TypeScript with customizable retries and delay.",
+  "keywords": ["retry", "async", "typescript", "utility", "promise", "async-retry", "fetch-retry"],
+  "packageManager": "npm@10.5.0",
   "devDependencies": {
     "typescript": "^5.8.3"
-  }
+  },
+  "exports": {
+    "import": "./build/index.js",
+    "require": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md"
+  ]
 }
